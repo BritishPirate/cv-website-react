@@ -1,0 +1,116 @@
+body {
+    background: rgb(54, 59, 61)
+}
+
+.rcorner1 {
+    border-radius: 25px;
+}
+
+header {
+    background: rgb(141, 40, 63);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
+.text-default {
+    font-family: "Source Sans Pro";
+    color: rgb(232,230,227);
+    overflow-wrap: break-word;
+}
+
+.text-section-title {
+    color: rgb(189,108,127);
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: right;
+}
+
+.opline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-divider {
+    border: 2px solid rgb(141, 40, 63);
+}
+
+.flex-container {
+    display: flex;
+
+    justify-content: center;
+}
+
+#content{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#header-container{
+    padding-left: 60px;
+    padding-right: 60px;   
+}
+
+.flex-item { /* TODO: Mess with the flex to make it so that phone is centred without making all of them the same size*/
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#name {
+    text-align: center;
+}
+
+svg {
+    fill: rgb(232, 230, 227);
+    height: 19px;
+    margin: 0px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+/* This section changes based on screen size. The top 2 are the important ones, but later I can change them */
+@media only screen and (min-width: 300px) {
+    #name {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #name {
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-height: 300px) {
+    header{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
