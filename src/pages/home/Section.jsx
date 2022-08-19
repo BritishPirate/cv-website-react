@@ -1,13 +1,13 @@
 import React from "react";
 import "../../page-css/Home.css";
 import Entry from "./Entry.jsx";
+import Collapsible from "react-collapsible";
+import SectionHeader from "./SectionHeader";
 
 function Section(title, contentArr){
     let ret = [];
     return(
-        <div id={title}>
-        <h2 id={title + "-title"} className="text-section-title text-default">{title}</h2>
-        <hr className="section-divider" />
+        <Collapsible trigger={(<SectionHeader title={title}/>)} id={title}>
         {
             contentArr.map((entry)=>{
                 return(
@@ -17,7 +17,7 @@ function Section(title, contentArr){
                 )
             })
         }
-    </div>
+    </Collapsible>
     );
 }
 
