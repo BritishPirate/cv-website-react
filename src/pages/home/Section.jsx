@@ -3,7 +3,6 @@ import "../../page-css/Home.css";
 import Entry from "./Entry.jsx";
 
 function Section(title, contentArr){
-    console.log(contentArr);
     let ret = [];
     return(
         <div id={title}>
@@ -11,7 +10,6 @@ function Section(title, contentArr){
         <hr className="section-divider" />
         {
             contentArr.map((entry)=>{
-                console.log(entry);
                 return(
                     <>
                     <Entry entry={entry} /> <br/>

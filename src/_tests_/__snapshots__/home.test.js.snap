@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Returns a correct header entry when created 1`] = `
+<a
+  className="flex-item normal"
+  href="mailto: nur10000@gmail.com"
+  id="Email"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    id="Email-icon"
+  >
+    <svg
+      fill="#FFFFFF"
+      height="24px"
+      id="email-icon-svg"
+      width="24px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+      />
+    </svg>
+  </span>
+  <span
+    className="text-default"
+    id="Email-text"
+  >
+    nur10000@gmail.com
+  </span>
+</a>
+`;
+
+exports[`Returns a correct header entry when created 2`] = `
+<a
+  className="flex-item hovered"
+  href="mailto: nur10000@gmail.com"
+  id="Email"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    id="Email-icon"
+  >
+    <svg
+      fill="#FFFFFF"
+      height="24px"
+      id="email-icon-svg"
+      width="24px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+      />
+    </svg>
+  </span>
+  <span
+    className="text-default"
+    id="Email-text"
+  >
+    nur10000@gmail.com
+  </span>
+</a>
+`;
+
+exports[`Returns a correct header entry when created 3`] = `
+<a
+  className="flex-item normal"
+  href="mailto: nur10000@gmail.com"
+  id="Email"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    id="Email-icon"
+  >
+    <svg
+      fill="#FFFFFF"
+      height="24px"
+      id="email-icon-svg"
+      width="24px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+      />
+    </svg>
+  </span>
+  <span
+    className="text-default"
+    id="Email-text"
+  >
+    nur10000@gmail.com
+  </span>
+</a>
+`;
