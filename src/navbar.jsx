@@ -1,19 +1,13 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import "./navbar.css";
+import "./page-css/home/Home.css";
+import "./index.css";
 
 function Navbar(){
     return(
-        <nav>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/blogs">Blogs</Link>
-            </li>
-            <li>
-                <Link to="/contacts">Contacts</Link>
-            </li>
-        </nav>       
+      <div id="navBar" className="rcorner1">
+      "Text text text"
+      </div>      
     );
 }
 

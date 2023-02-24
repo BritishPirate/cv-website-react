@@ -1,7 +1,11 @@
 import React from "react";
-import "../../page-css/Home.css";
 import Section from "./Section.jsx";
 import HeaderEntry from "./HeaderEntry";
+
+import "../../index.css";
+import "../../page-css/home/Home.css";
+
+
 
 function Home(){
     //#region settingArrays
@@ -95,10 +99,10 @@ function Home(){
             <div id="name" className="text-default"><b><h1>Nur Luski Levi</h1></b></div>
             <div id="contact-details" className="flex-container">
                 {
-                    contactDetArr.map((entry) =>
+                    contactDetArr.map((entry, index) =>
                         {
                             return(
-                                <HeaderEntry title={entry.title} link={entry.link} text={entry.text} svg={entry.svg} />
+                                <HeaderEntry key={entry.title} title={entry.title} link={entry.link} text={entry.text} svg={entry.svg} />
                             )
                         }
                     )

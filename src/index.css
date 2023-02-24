@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(54, 59, 61);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.rcorner1 {
+  border-radius: 25px;
+}
+
+.text-default {
+  font-family: "Source Sans Pro";
+  color: rgb(232,230,227);
+  overflow-wrap: break-word;
+}
+
+#container {
+  display: inline;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+.text-section-title {
+  margin-bottom: 5px;
+}
+
+.flex-container {
+  display: flex;
+
+  justify-content: center;
 }

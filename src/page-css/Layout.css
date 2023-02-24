@@ -1,0 +1,12 @@
+.flex-box{
+    display: flex;
+}
+
+Navbar{
+    position: relative;
+    width: 20%;
+}
+Outlet{
+    position: relative;
+    width: 80%;
+}

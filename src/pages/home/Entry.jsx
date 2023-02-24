@@ -1,5 +1,6 @@
 import React from "react";
-import "../../page-css/Home.css";
+
+
 
 function Entry({entry}){
     return(

@@ -1,6 +1,5 @@
 import React from "react";
 import {useState} from 'react';
-import "../../page-css/Home.css";
 
 const STATUS = {
     HOVERED: 'hovered',
@@ -19,16 +18,16 @@ export default function HeaderEntry({title, link, text, svg}){ /* TODO: Create a
     };
 
     return(
-        <a href={link} 
+        <a href={link}
            id={title} 
-           className={'flex-item ' + status} 
+           className={'flex-item ' + status  + ' grid'} 
            onMouseEnter={onMouseEnter} 
            onMouseLeave={onMouseLeave}
            >
             <span id={title + '-icon'}>
                {svg}
             </span>
-            <span id={title + '-text'} className="text-default">{text}</span>
+            <span id={title + '-text'} className={'text-default header-entry-text'}>{text}</span>
         </a>
     );
 }

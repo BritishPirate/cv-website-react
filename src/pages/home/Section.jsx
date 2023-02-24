@@ -1,5 +1,4 @@
 import React from "react";
-import "../../page-css/Home.css";
 import Entry from "./Entry.jsx";
 import Collapsible from "react-collapsible";
 import SectionHeader from "./SectionHeader";
@@ -9,10 +8,10 @@ function Section(title, contentArr){
     return(
         <Collapsible trigger={(<SectionHeader title={title}/>)} id={title}>
         {
-            contentArr.map((entry)=>{
+            contentArr.map((entry, index)=>{
                 return(
                     <>
-                    <Entry entry={entry} /> <br/>
+                    <Entry key={index.toString()} entry={entry} /> <br/>
                     </> 
                 )
             })

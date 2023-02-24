@@ -2,8 +2,18 @@ body {
     background: rgb(54, 59, 61)
 }
 
-.rcorner1 {
-    border-radius: 25px;
+.grid {
+    display: grid;
+}
+
+.header-entry-text {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.flex-item:hover .header-entry-text {
+    opacity: 1;
+    transform: scale(1) TranslateY(0%); 
 }
 
 header {
@@ -11,25 +21,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-}
-
-
-
-.square {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-  }
-
-.text-default {
-    font-family: "Source Sans Pro";
-    color: rgb(232,230,227);
-    overflow-wrap: break-word;
-}
-
-.text-section-title {
-    color: rgb(189,108,127);
-    margin-bottom: 5px;
 }
 
 .date {
@@ -43,12 +34,6 @@ header {
 
 .section-divider {
     border: 2px solid rgb(141, 40, 63);
-}
-
-.flex-container {
-    display: flex;
-
-    justify-content: center;
 }
 
 #content{
@@ -80,11 +65,15 @@ svg {
     margin: 0px;
 }
 
+
+
 a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; }
+a:hover { 
+    text-decoration: none; 
+}
 
 a:active { text-decoration: none; }
 
